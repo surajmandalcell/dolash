@@ -1,0 +1,21 @@
+{
+  "name": "dolash",
+  "version": "0.1.0",
+  "description": "Functional utilities regularly used by me that were found on stackoverflow mostly.",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surajmandalcell/dolash.git"
+  },
+  "keywords": [
+    "dolash",
+    "utilities",
+    "loadsh-lite"
+  ],
+  "author": "Suraj Mandal <dev@surajmandal.in> (https://surajmandal.in/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/surajmandalcell/dolash/issues"
+  },
+  "homepage": "https://github.com/surajmandalcell/dolash#readme"
+}
