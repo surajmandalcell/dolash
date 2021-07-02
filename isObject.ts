@@ -1,5 +1,5 @@
 /**
- * ### Checks if passed value is type of object(not default javascript typeof)
+ * ## Checks if passed value is type of object(not default javascript typeof)
  *
  * Cases handled, checks for null & array seperately(typeof error)
  *

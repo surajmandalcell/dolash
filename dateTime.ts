@@ -1,5 +1,5 @@
 /**
- * ### Converts SQL Date Time to JS Date object
+ * ## Converts SQL Date Time to JS Date object
  *
  * @param SQL_DATE_TIME string
  *
