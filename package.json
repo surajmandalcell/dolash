@@ -1,6 +1,6 @@
 {
   "name": "dolash",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Functional utilities regularly used by me that were found on stackoverflow mostly.",
   "scripts": {
     "test": "jest",
