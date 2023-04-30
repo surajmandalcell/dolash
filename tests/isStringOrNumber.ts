@@ -1,4 +1,4 @@
-import { isStringOrNumber } from '../isStringOrNumber';
+import { isStringOrNumber } from '../base/isStringOrNumber';
 
 describe('Test required cases for isStringOrNumber', () => {
   test('Valid `number` is `number`', () => {

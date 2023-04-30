@@ -1,6 +1,8 @@
 /**
  * Base64 helper @do-lash
  * Suraj Mandal
+ * surajmandal.in
+ * env: nodejs
  */
 
 /**

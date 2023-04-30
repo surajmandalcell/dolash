@@ -1,13 +1,12 @@
 /**
- * ## Converts SQL Date Time to JS Date object
- *
+ * DateTime helpers @do-lash
+ * Suraj Mandal
+ * surajmandal.in
+ */
+
+/**
+ * #### Converts SQL Date Time to JS Date object
  * @param SQL_DATE_TIME string
- *
- * Sign: SurajMandal
- *
- * Website: surajmandal.in
- *
- * ts: true
  */
 export function sqlDateToJsDate(prop: any): Date {
   //sqlDate in SQL DATETIME format ("yyyy-mm-dd hh:mm:ss.ms")

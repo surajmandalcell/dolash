@@ -1,6 +1,7 @@
 /**
  * Mongoose helper @do-lash
  * Suraj Mandal
+ * surajmandal.in
  */
 
 /**
@@ -8,7 +9,6 @@
  * @param arrKey: string
  * @param editObj: {key: value,...}
  */
-
 mongo.prepareArrObjForEdit = (arrayKey: string, editObj: Object) => {
   const newObj: any = {};
   for (const [key, value] of Object.entries(editObj)) {
