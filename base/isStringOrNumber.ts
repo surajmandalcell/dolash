@@ -12,6 +12,5 @@
  */
 export function isStringOrNumber(prop: string | number): number | string {
   const _prop = prop.toString();
-  if (!isNaN(parseFloat(_prop)) && !isNaN(+prop)) return parseFloat(_prop);
-  else return _prop;
+  return !isNaN(+_prop) && Number.isNaN(+_prop) ? parseFloat(_prop) : _prop;
 }

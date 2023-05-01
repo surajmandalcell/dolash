@@ -4,17 +4,24 @@
  * surajmandal.in
  */
 
+interface IObj {
+  [key: string]: any;
+}
+
 /**
  * From {key: value} to {parentKey.$.key: value}
- * @param arrKey: string
+ * @param arrayKey: string
  * @param editObj: {key: value,...}
  */
-mongo.prepareArrObjForEdit = (arrayKey: string, editObj: Object) => {
-  const newObj: any = {};
-  for (const [key, value] of Object.entries(editObj)) {
-    if (key !== ('_id' || 'createdAt' || 'updatedAt')) newObj[`${arrayKey}.$.${key}`] = value;
+const prepareArrObjForEdit = (arrayKey: string, editObj: IObj) => {
+  const resultObj: IObj = {};
+  const excludedKeys = new Set(["_id", "createdAt", "updatedAt"]);
+  for (const key of Object.keys(editObj)) {
+    if (!excludedKeys.has(key)) {
+      resultObj[`${arrayKey}.$.${key}`] = editObj[key];
+    }
   }
-  return newObj;
+  return resultObj;
 };
 
-export function mongo() { }
+export { prepareArrObjForEdit };
