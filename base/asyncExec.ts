@@ -6,6 +6,7 @@ import { ExecOptions, exec } from "child_process";
  * surajmandal.in
  * env: nodejs
  */
+
 /**
  * Exec command and return promise
  * @param cmd string
@@ -14,7 +15,7 @@ import { ExecOptions, exec } from "child_process";
  */
 export default function asyncExec(
   cmd: string,
-  options: ExecOptions
+  options?: ExecOptions
 ): Promise<Buffer | string> {
   return new Promise((resolve, reject) => {
     exec(cmd, options, (error, stdout, stderr) => {
