@@ -1,0 +1,6 @@
+node_modules
+.vs_code
+.idea
+coverage
+dist
+temp.*
