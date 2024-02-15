@@ -5,6 +5,8 @@ Helpers for those in need
 - `base` contains basic javascript/typescript helpers
 
 - `be` contains helpers for `nodejs` backend
+- - `express` contains helpers for `express` framework
+- - `mongodb` contains helpers for `mongodb` database
 
 - `fe` contains helpers for frontend frameworks
 - - `angular` contains helpers for `angular` framework
@@ -12,6 +14,5 @@ Helpers for those in need
 - - `nextjs` contains helpers for `nextjs` framework
 
 - `tests` folder contains tests for the helpers
-
 
 ###### Forged in 🔥 by [Suraj Mandal](https://github.com/surajmandalcell)
